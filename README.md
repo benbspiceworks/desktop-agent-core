@@ -1,5 +1,7 @@
 # desktop-agent-core
 
+Use docker to build a container that installs and runs the Spiceworks Agent Shell "Classic Agent" module. This agent module checks in with the Spiceworks Desktop (v8.0+) to create a new sample/test device record in the Inventory.
+
 ## Initial Setup
 This can likely be done in any VirtualBox host, but in macOS/Sierra (10.12)
   * install latest VirtualBox
