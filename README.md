@@ -19,7 +19,7 @@ ref. https://blog.sixeyed.com/how-to-dockerize-windows-applications/
 
 Ex. docker build command where Dockerfile is stored at C:\build\Dockerfile
 
-`docker build -t desktop-agent c:\build --build-arg CLASSIC_AGENT_HOST=desktopapp --build-arg CLASSIC_AGENT_PORT=443 --build-arg CLASSIC_AGENT_KEY=<unencrypted key> --build-arg CLASSIC_AGENT_KEY_ENCRYPTED=False`
+`docker build -t desktop-agent c:\build --build-arg CLASSIC_AGENT_HOST=desktopapp --build-arg CLASSIC_AGENT_PORT=443 --build-arg CLASSIC_AGENT_KEY=<unencrypted key> --build-arg CLASSIC_AGENT_KEY_ENCRYPTED=False --build-arg AGENT_VERSION="0.3.16"`
 
 Note: `desktopapp` is the hostname of the Desktop app container.
 
